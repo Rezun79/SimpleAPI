@@ -1,0 +1,7 @@
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\SimpleApi.exe
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\appsettings.Development.json
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\appsettings.json
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\SimpleApi.dll
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\SimpleApi.deps.json
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\SimpleApi.runtimeconfig.json
+C:\Users\trosi\Automation\git-repos-ext\github_rezun79\SimpleAPI\publish\SimpleApi.pdb
