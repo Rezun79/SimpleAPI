@@ -7,20 +7,20 @@ using System;
 var builder = WebApplication.CreateBuilder(args);
 
 // Dodajemy usługę CORS
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        policy =>
-        {
-            policy.AllowAnyOrigin()  // Zezwala na dostęp z każdej domeny
-                  .AllowAnyMethod()  // Zezwala na wszystkie metody (GET, POST, itd.)
-                  .AllowAnyHeader(); // Zezwala na wszystkie nagłówki
-        });
-});
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowAll",
+//         policy =>
+//         {
+//             policy.AllowAnyOrigin()  // Zezwala na dostęp z każdej domeny
+//                   .AllowAnyMethod()  // Zezwala na wszystkie metody (GET, POST, itd.)
+//                   .AllowAnyHeader(); // Zezwala na wszystkie nagłówki
+//         });
+// });
 
 var app = builder.Build();
 
-app.UseCors("AllowAll");
+// app.UseCors("AllowAll");
 
 app.MapGet("/greet", (HttpRequest request) =>
 {
